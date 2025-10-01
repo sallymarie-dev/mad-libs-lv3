@@ -1,0 +1,25 @@
+body {
+    background-color:#b4eee9;
+
+}
+h1{
+    font-style:normal;
+    font-family: cursive;
+    color: rgb(255, 0, 200);
+}
+
+p{
+   font-style:inherit; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:rgb(255, 0, 200);
+}
+::placeholder{
+    color: rgb(203, 224, 14);
+}
+input, textarea{
+    color: black;
+}
+.btn{
+    background-color: rgb(255, 0, 200);
+    color:rgb(203, 224, 14);
+}

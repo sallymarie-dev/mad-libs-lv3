@@ -22,17 +22,13 @@ app.get("/create-mad-libs", (req, res) => {
   console.log("adjective2", adjective2);
   console.log("noun2", noun2);
   //res.send("Data Recieved!");
-  const storyTemplate =`
+  const storyTemplate = `
   <p>Once upon a time, ${name} went to the ${noun1} and decided to ${verb}. 
     It was a very ${adjective1} day, and they soon discovered a ${adjective2} ${noun2} waiting for them!</p>
   `;
-  
+
   res.send(storyTemplate);
-  
 });
-
-
-
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
